@@ -15,8 +15,12 @@
 >Здесь [шпаргалка](
 https://training.github.com/downloads/ru/github-git-cheat-sheet/) по программе **GIT**
 ___
-![Шпаргалка GIT](Shpargalka GIT.jpg)
 
+Шпаргалка GIT
+![Шпаргалка GIT](ShpargalkaGIT.jpg)
+
+Шпаргалка MarkDown
+![Шпаргалка MarkDown](ShpargalkaMarkDown.jpg)
 ___
 ___
 
