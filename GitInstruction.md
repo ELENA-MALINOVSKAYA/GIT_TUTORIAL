@@ -15,11 +15,9 @@
 >Здесь [шпаргалка](
 https://training.github.com/downloads/ru/github-git-cheat-sheet/) по программе **GIT**
 ___
-![Попытка вставить картинку](https://yandex.ru/images/search?text=%D1%8F%D0%B7%D1%8B%D0%BA%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%82%D0%BA%D0%B8%20markdown%20%D1%88%D0%BF%D0%B0%D1%80%D0%B3%D0%B0%D0%BB%D0%BA%D0%B0&from=tabbar&pos=7&img_url=http%3A%2F%2Fyoudriveai.com%2Fassets%2Fimages%2Fcheatsheets%2Fcheatsheet-markdown.jpg&rpt=simage&lr=10951)
+![Шпаргалка GIT](Shpargalka GIT.jpg)
+
 ___
-![Попытка добавления картинки 2](../%D0%A8%D0%BF%D0%B0%D1%80%D0%B3%D0%B0%D0%BB%D0%BA%D0%B0%20MarkDown.jpg)
-
-
 ___
 
 | Команда | Действие 
