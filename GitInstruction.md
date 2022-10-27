@@ -8,7 +8,7 @@
 
 * *git checkout* - команда переключения между сохраненными версиями;
 * *git checkout master* - команда возврата к самому последнему сохранению;
-* *git commit - m""* - команда написания комментария к сохраняемым изменениям, работает в связке с git add;
+* *git commit - m""* - команда фиксации изменений, работает в связке с git add;
 * Это [ссылка](https://texterra.ru/blog/ischerpyvayushchaya-shpargalka-po-sintaksisu-razmetki-markdown-na-zametku-avtoram-veb-razrabotchikam.html "с заголовком") на описание языка разметки MarkDown с заголовком (тайтлом);
 > Не забывай сохранять изменения через сочетания клавишь **Ctrl+S**
 
