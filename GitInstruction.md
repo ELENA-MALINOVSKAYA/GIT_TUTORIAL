@@ -60,7 +60,6 @@ git branch lost_branch ebd861945f1afacf54bec269b7f2c791f2b2be0f
 
  *git branch -d lost_branch*
 
-<<<<<<< HEAD
  >Каждый
  охотник
  желает
@@ -78,6 +77,4 @@ git branch lost_branch ebd861945f1afacf54bec269b7f2c791f2b2be0f
 
  Merge branch 'Number_2_A' into Number_2
  
-=======
- > RED, ORANGE, YELLOW, GREEN, BLUE, INDIGO, VIOLET.
->>>>>>> Number_2_B
+Merge branch 'Number_2_B' into Number_2
