@@ -56,4 +56,6 @@ git branch lost_branch ebd861945f1afacf54bec269b7f2c791f2b2be0f
 
 4. Та-дам! Магия произошла: HEAD -> main, и все данные теперь в основной ветке.
 
-5. Можно удалить ветку lost_branch командой *git branch -d lost_branch
+5. Можно удалить ветку lost_branch командой
+
+ *git branch -d lost_branch*
