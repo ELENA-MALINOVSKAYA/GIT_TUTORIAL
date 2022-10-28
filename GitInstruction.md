@@ -67,3 +67,13 @@ git branch lost_branch ebd861945f1afacf54bec269b7f2c791f2b2be0f
  где
  сидит
  фазан
+ 
+ >Красный,
+ оранжевый,
+ желтый,
+ зеленый,
+ голубой,
+ синий.
+
+ Merge branch 'Number_2_A' into Number_2
+ 
