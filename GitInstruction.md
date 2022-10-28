@@ -59,3 +59,5 @@ git branch lost_branch ebd861945f1afacf54bec269b7f2c791f2b2be0f
 5. Можно удалить ветку lost_branch командой
 
  *git branch -d lost_branch*
+
+ > RED, ORANGE, YELLOW, GREEN, BLUE, INDIGO, VIOLET.
