@@ -73,3 +73,21 @@ git branch lost_branch ebd861945f1afacf54bec269b7f2c791f2b2be0f
  
  >Для запоминания цветов радуги необходимо запомнить фразу:
   
+ >Каждый
+ охотник
+ желает
+ знать
+ где
+ сидит
+ фазан
+ 
+ >Красный,
+ оранжевый,
+ желтый,
+ зеленый,
+ голубой,
+ синий.
+
+ Merge branch 'Number_2_A' into Number_2
+ 
+Merge branch 'Number_2_B' into Number_2
