@@ -31,4 +31,29 @@ ___
 |git diff| Отображает изменения относительно последнего сохранения, показывает добавленные и удаленные строки, детальное отображение изменений
 |git status| Отображает статус изменения целой папки/файла|
 
-# Создаем конфликт
+
+# Работа с ветвлением 
+### **Проблема**
+ Сообщение HEAD detached from 821d70f информиует о том, что текущая рабочая ветка отделилась от главной "main". Это видно при вызове *git log*.
+Пример: 
+
+commit ebd861945f1afacf54bec269b7f2c791f2b2be0f (HEAD)
+commit 821d70ffca37f1c263e8623ae57ae183e170bd88 (main)
+
+### **Решение**
+1. Переходим в главную ветку git checkout main
+2. Создаем новую ветку:
+
+*git branch name_new_branch number_commit_HEAD*
+
+Пример: 
+
+git branch lost_branch ebd861945f1afacf54bec269b7f2c791f2b2be0f
+
+3. Производим слияние git merge name_new_branch
+
+Пример: git merge lost_branch
+
+4. Та-дам! Магия произошла: HEAD -> main, и все данные теперь в основной ветке.
+
+5. Можно удалить ветку lost_branch командой *git branch -d lost_branch
