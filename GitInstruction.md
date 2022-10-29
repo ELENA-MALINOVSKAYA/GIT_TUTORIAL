@@ -78,5 +78,18 @@ git branch lost_branch ebd861945f1afacf54bec269b7f2c791f2b2be0f
  сидит
  фазан*.
  
- 
+ # Работа с удаленным репозиторием
+ ## Отправка изменений в удаленный репозиторий
+
+* Создаем аккаунт на Github
+* Создаем новый репозиторий
+* Используем инструкцию Github. Пример: 
+> …or push an existing repository from the command line
+>
+>git remote add origin https://github.com/ELENA-MALINOVSKAYA/GIT_TUTORIAL.git
+>
+>git branch -M main
+>
+>git push -u origin main
+
 
