@@ -92,4 +92,8 @@ git branch lost_branch ebd861945f1afacf54bec269b7f2c791f2b2be0f
 >
 >git push -u origin main
 
+## Синхронизация локального репозитория с удаленным репозиторием
 
+* на терминале локального репозитория вводим команду
+
+>git pull origin main
