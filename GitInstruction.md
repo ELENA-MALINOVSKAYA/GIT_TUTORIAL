@@ -97,3 +97,47 @@ git branch lost_branch ebd861945f1afacf54bec269b7f2c791f2b2be0f
 * на терминале локального репозитория вводим команду
 
 >git pull origin main
+
+## Клонирование чужого репозитория на локальный компьютер и свой удаленный репозитарий github
+
+* Создаем папку на компьютере
+* через cmd/VSC/PowerShell/Git Bash и др вводим команду
+
+> git clone <url репозитория>
+
+>**ВАЖНО!!! git clone уже предполагает (включает в себя) git init и многое другое.** 
+
+* Далее вызываем команду *git status*
+* В случае возникновения следующего сообщения, как на примере ниже, вам следует поменять директорию клонированного репозитария.
+
+*PS C:\GIT\GIT_CLONE> git status
+fatal: not a git repository (or any of the parent directories): .git*
+
+* Команда **"ls"** отображает список объектов в текущей директории
+* Команда **"cd имя.папки/файла"** меняет директорию на указанную.
+* Вновь проверяем git status. Если мы попали в папку репозитария, то мы увидим информацию о текущей ветке.
+
+Пример:
+
+>*On branch master
+Your branch is up to date with 'origin/master'.*
+>
+>*nothing to commit, working tree clean*
+
+* Далее, если получаем  ошибку 
+
+  __*remote origin already exists.*__ 
+
+после команды с github 
+
+**git remote add origin** https://github.com/ELENA-MALINOVSKAYA/GB_CLONE_2.git  ,
+
+тогда вводим команду 
+
+>**git remote set-url origin** https://github.com/ELENA-MALINOVSKAYA/GB_CLONE_2.git
+
+* Далее вводим команду git branch. Проверяем находимся ли мы на главной ветке и название  главной ветки: main или master.
+* вводим команду 
+
+**git push -u origin master**
+* Все готово: клонированный чужой репозитарий у вас на github
