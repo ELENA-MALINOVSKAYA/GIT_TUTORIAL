@@ -141,3 +141,6 @@ Your branch is up to date with 'origin/master'.*
 
 **git push -u origin master**
 * Все готово: клонированный чужой репозиторий у вас на github
+
+# LIFEHACK
+Команда **git log --oneline --all** отображает в сокращенной форме все коммиты во всех ветвях с указанием на конкретную ветку.
